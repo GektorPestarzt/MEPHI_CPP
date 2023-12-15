@@ -28,12 +28,12 @@
 
 ## static Tree* Find(const T& _data, Tree* root);
 
-Ищет в текущем дереве вершину с _data.
+Ищет в текущем дереве вершину с данным значением.
 Если вершина есть, возвращает ссылку на неё, иначе возвращает nullptr.
 
 ## bool IsFind(const T& _data);
 
-Ищет в текущем дереве вершину с _data.
+Ищет в текущем дереве вершину с данным значением.
 Если вершина есть, возвращает true, иначе возвращает false.
  
 ## static void Where(Tree** newTree, Tree* root, bool (*Check)(T));
@@ -51,13 +51,28 @@
 
 ## T& Get();
 
-
+Возвращает значение текущей вершины.
 
 ## int Count(Tree* root);
 
+Возвращает количество вершин в дереве.
+
 ## Tree* TreeMin();
+
+Возвращает вершину с минимальным значением.
+
 ## Tree* TreeSuccessor();
+
+
+
 ## Tree* TreeDelete(const T& data, Tree** root);
 
+Удаляет вершину с текущим значением.
+
 ## static Tree* Balance(Tree* tr);
+
+Балансирует дерево.
+
 ## static int Height(Tree* root);
+
+Возвращает высоту текущей вершины.
