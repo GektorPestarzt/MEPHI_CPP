@@ -1,4 +1,4 @@
-# Binary Tree C++
+# Binary search tree C++
 
 Реализация класса двоичного дерева поиска на языке C++
 
